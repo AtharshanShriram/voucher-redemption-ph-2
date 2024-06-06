@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" 
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        h5 {
+            margin: 20px 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        img {
+            vertical-align: middle;
+            max-width: 30%;
+            width: 30%;
+            max-height: 100%;
+            margin: 0;
+            padding-right: 2px;
+            float: left;
+        }
+
+        button {
+            padding: 2px;
+            margin: 0.5% 1% 0% 1%;
+            width: 48%;
+            max-width: 48%;
+            height: 50px;
+            font-size: 11px;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 2px solid steelblue;
+            background-color: white;
+            font-family: 'Lato', sans-serif;
+        }
+
+        button:hover {
+            box-shadow: 2px 6px 5px #ccc;
+            border: 3px solid #385072;
+            border-radius: 10px;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .image:hover {
+            box-shadow: 50px blue;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript">
+        window.addEventListener('load', (event) => {
+            const { title } = Qs.parse(location.search, { ignoreQueryPrefix: true });
+            document.getElementById("heading").innerHTML = title;
+        });
+
+        function back() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "@go-back"
+                }),
+                "*"
+            );
+        }
+
+        function call() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "Redeem Garena Shell Vouchers Call of Duty"
+                }),
+                "*"
+            );
+        }
+
+        function legends() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "Redeem Mobile Legends Item Codes"
+                }),
+                "*"
+            );
+        }
+
+        function tinder() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to Redeem Tinder Voucher Codes"
+                }),
+                "*"
+            );
+        }
+
+        function steamwallet() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to Redeem Steam Wallet Voucher Codes"
+                }),
+                "*"
+            );
+        }
+
+        function pubg() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to Redeem PUBG Mobile Vouchers"
+                }),
+                "*"
+            );
+        }
+
+        function nintendo() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to Redeem Nintendo eShop Card Codes"
+                }),
+                "*"
+            );
+        }
+
+        function ok() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How To Redeem OK Cupid Voucher Code"
+                }),
+                "*"
+            );
+        }
+
+        function netflix() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How To Redeem Netflix Voucher Code"
+                }),
+                "*"
+            );
+        }
+
+        function xbox() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "Xbox Gift Card"
+                }),
+                "*"
+            );
+        }
+
+        function rockstar() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "rockstar"
+                }),
+                "*"
+            );
+        }
+
+        function epic() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "i want to redeem Epic Games voucher code"
+                }),
+                "*"
+            );
+        }
+
+        function mine() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "Minecraft voucher code"
+                }),
+                "*"
+            );
+        }
+
+        function viu() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How To Redeem Viu Voucher Code"
+                }),
+                "*"
+            );
+        }
+
+        function garenashells() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to redeem Garena Shells PH voucher"
+                }),
+                "*"
+            );
+        }
+
+        function sharkcash() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How To Redeem Shark Cash Cards Code"
+                }),
+                "*"
+            );
+        }
+
+        function blackdessert() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "Black Desert SEA Voucher"
+                }),
+                "*"
+            );
+        }
+
+        function codacashVoucher() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to redeem coda cash voucher"
+                }),
+                "*"
+            );
+        }
+
+        function bigoLive() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to redeem BigoLive voucher"
+                }),
+                "*"
+            );
+        }
+
+        function playstationVouchers() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to redeem Playstation voucher"
+                }),
+                "*"
+            );
+        }
+
+        function bilibili() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to redeem Bilibili voucher"
+                }),
+                "*"
+            );
+        }
+
+        function footballManager2024() {
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How to redeem FootballManager2024 voucher"
+                }),
+                "*"
+            );
+        }
+    </script>
+
+    <div class="image">
+        <img src="https://cdn.yellowmessenger.com/KseiGAPc8y401621566579976.jpeg" alt="" style="float: right;width:25px;height:25px;max-width: 40px;max-height: 40px;margin-right: 4px;" onclick="back()">
+    </div>
+    <br />
+    <b>
+        <h5 id="heading">Please choose the voucher redemption tutorial below </h5>
+    </b>
+
+    <button type="button" onclick="call()" class="right primary-btn col-xs-11 text-left">
+        <img src="https://cdn.yellowmessenger.com/JHGnMiKevRfQ1621264012663.png" alt="Place Holder" /><span> COD:M</span>
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="legends()">
+        <img src="https://cdn.yellowmessenger.com/FuXxevambEXI1621263064445.png" alt="Place Holder" /> Mobile Legends
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="tinder()">
+        <img src="https://cdn.yellowmessenger.com/mpTP2ocVvY291621256326863.png" alt="Place Holder" /> Tinder
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="steamwallet()">
+        <img src="https://cdn.yellowmessenger.com/ebAbcs9HBMzC1621257918055.png" alt="Place Holder" /> Steam Wallet
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="pubg()">
+        <img src="https://cdn.yellowmessenger.com/MR6Smc9Z0JQi1621259882872.png" alt="Place Holder" /> PUBG UC
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="nintendo()">
+        <img src="https://cdn.yellowmessenger.com/xQzOYnHq1gwg1621258467333.png" alt="Place Holder" /> Nintendo eShop
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="ok()">
+        <img src="https://cdn.yellowmessenger.com/OTscjSRhJHAN1621432257647.png" alt="Place Holder" /> OK Cupid
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="xbox()">
+        <img src="https://cdn.yellowmessenger.com/gzQzUptDw2tC1621255146766.png" alt="Place Holder" /> Xbox Gift Card (US)
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="mine()">
+        <img src="https://cdn.yellowmessenger.com/aowTPkJRsFRC1621263922923.png" alt="Place Holder" /> Minecraft Java & Bedrock Edition
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="viu()">
+        <img src="https://cdn.yellowmessenger.com/BaJyh5C4T4nb1632109587311.jpg" alt="Place Holder" /> VIU
+    </button>
+    <button type="button" class="left primary-btn col-xs-11 text-left" onclick="sharkcash()">
+        <img src="https://cdn.yellowmessenger.com/AzT5AkUekDfd1632109622532.jpg" alt="Place Holder" /> GTA Online: Shark Cash Cards
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="footballManager2024()">
+        <img src="https://cdn.yellowmessenger.com/mU7anWalVIMx1717657519811.png" alt="Place Holder" /> Football Manager 2024
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="garenashells()">
+        <img src="https://cdn.yellowmessenger.com/Xy07hwk4YvuU1717656618046.png" alt="Place Holder" /> Garena Shells PH
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="codacashVoucher()">
+        <img src="https://cdn.yellowmessenger.com/W6G3Usf1VRIu1717656837063.png" alt="Place Holder" /> Codacash Voucher
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="bigoLive()">
+        <img src="https://cdn.yellowmessenger.com/nRV6h2fNcObD1717657026191.png" alt="Place Holder" /> Bigo Live
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="playstationVouchers()">
+        <img src="https://cdn.yellowmessenger.com/siGS6C4iDAvQ1717657127024.png" alt="Place Holder" /> Playstation Vouchers
+    </button>
+    <button type="button" class="right primary-btn col-xs-11 text-left" onclick="bilibili()">
+        <img src="https://cdn.yellowmessenger.com/D0SBOrCzHMyY1717657197092.png" alt="Place Holder" /> Bilibili
+    </button>
+</body>
+
+</html>
